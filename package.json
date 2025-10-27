@@ -1,5 +1,5 @@
 {
-  "name": "wohnungssuche",
+  "name": "wohnungssuche-portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vladyslav-Zaporozhets/wohnungssuche.git"
+    "url": "git+https://github.com/Vladyslav-Zaporozhets/wohnungssuche-portfolio.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Vladyslav-Zaporozhets/wohnungssuche/issues"
+    "url": "https://github.com/Vladyslav-Zaporozhets/wohnungssuche-portfolio/issues"
   },
-  "homepage": "https://github.com/Vladyslav-Zaporozhets/wohnungssuche#readme",
+  "homepage": "https://github.com/Vladyslav-Zaporozhets/wohnungssuche-portfolio#readme",
   "dependencies": {
     "vite": "^7.1.12"
   },
