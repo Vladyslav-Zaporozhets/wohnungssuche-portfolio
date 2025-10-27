@@ -1,0 +1,9 @@
+# Vite
+dist/
+.vite/
+
+# Залежності
+node_modules/
+
+# Системні файли
+.DS_Store
