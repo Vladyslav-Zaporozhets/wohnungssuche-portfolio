@@ -23,8 +23,9 @@
   --color-border: #e5e7eb; /* Tailwind Gray 200 (рамки) */
   --color-error: #dc3545; /* Колір помилки (залишаємо) */
 
-  /* НОВИЙ КОЛІР: Зелений для галочок */
   --color-success: #16a34a; /* Tailwind Green 600 */
+  /* ОНОВЛЕНО: Додаємо світлий варіант */
+  --color-success-light: #f0fdf4; /* Tailwind Green 50 */
 
   --border-radius: 0.5rem; /* 8px (трохи збільшимо) */
 

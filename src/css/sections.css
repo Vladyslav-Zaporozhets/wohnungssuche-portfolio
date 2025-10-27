@@ -27,19 +27,40 @@
   color: var(--color-primary);
 }
 .payment-info {
-  background-color: var(--color-primary-light);
-  border: 1px solid var(--color-primary);
+  /* ОНОВЛЕНО: Нові кольори (зелені) */
+  background-color: var(--color-success-light);
+  border: 1px solid var(--color-success);
   color: var(--color-dark);
+
   padding: 1.5rem;
   border-radius: var(--border-radius);
   font-size: 1.1rem;
-  line-height: 1.5;
+
+  /* ОНОВЛЕНО: Flexbox для іконки і тексту */
+  display: flex;
+  align-items: flex-start; /* Вирівнювання по верху */
+  gap: 1rem; /* Відстань між іконкою та текстом */
 }
 
-/* ОНОВЛЕНО: Додано правило для strong (Завдання 2) */
+/* НОВИЙ СТИЛЬ: для іконки в плашці */
+.payment-info .icon {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  color: var(--color-success);
+  margin-top: 3px; /* Трохи опустити для кращого візуального центрування */
+}
+
+/* НОВИЙ СТИЛЬ: для обгортки тексту */
+.payment-info-text {
+  flex-grow: 1;
+}
+
+/* ОНОВЛЕНО: Стиль для strong залишається */
 .payment-info strong {
   display: block;
   margin-bottom: 0.25rem;
+  font-weight: 600;
 }
 
 /* ОНОВЛЕНО: Додано text-align: center (Завдання 1) */

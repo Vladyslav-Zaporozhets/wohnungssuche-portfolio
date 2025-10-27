@@ -4,41 +4,54 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Wohnungssuche: Familie Zaporozhets</title>
+    <title>Wohnungssuche: Familie Mustermann</title>
 
     <meta
       name="description"
-      content="Zuverlässiges, ruhiges Ehepaar (Mietzahlung durch Jobcenter Forchheim gesichert) sucht eine 1-2 Zimmer Wohnung in Forchheim."
+      content="Zuverlässiges, junges Paar (Mietzahlung durch Jobcenter gesichert) sucht eine gemütliche 1-2 Zimmer Wohnung in Musterstadt."
     />
-    <meta name="author" content="Vladyslav & Hanna Zaporozhets" />
+    <meta name="author" content="Max & Maria Mustermann" />
     <meta name="robots" content="index, follow" />
     <link
       rel="sitemap"
       type="application/xml"
       title="Sitemap"
-      href="/sitemap.xml"
+      href="/wohnungssuche-portfolio/sitemap.xml"
     />
 
-    <meta property="og:title" content="Wohnungssuche: Familie Zaporozhets" />
+    <meta property="og:title" content="Wohnungssuche: Familie Mustermann" />
     <meta
       property="og:description"
-      content="Zuverlässiges Ehepaar (Jobcenter-Garantie) sucht 1-2 Zimmer Wohnung in Forchheim."
+      content="Zuverlässiges Paar (Jobcenter-Garantie) sucht 1-2 Zimmer Wohnung in Musterstadt."
     />
     <meta property="og:type" content="website" />
     <meta
       property="og:url"
-      content="https://vladyslav-zaporozhets.github.io/wohnungssuche/"
+      content="https://vladyslav-zaporozhets.github.io/wohnungssuche-portfolio/"
     />
     <meta
       property="og:image"
-      content="https://vladyslav-zaporozhets.github.io/wohnungssuche/og-image.jpg"
+      content="https://vladyslav-zaporozhets.github.io/wohnungssuche-portfolio/web-app-manifest-512x512.png"
     />
 
-    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="manifest" href="/site.webmanifest" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/wohnungssuche-portfolio/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/wohnungssuche-portfolio/favicon.svg"
+    />
+    <link rel="shortcut icon" href="/wohnungssuche-portfolio/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/wohnungssuche-portfolio/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="/wohnungssuche-portfolio/site.webmanifest" />
 
     <meta name="msapplication-TileColor" content="#2563eb" />
     <meta name="theme-color" content="#ffffff" />
@@ -104,14 +117,27 @@
               <span class="data-city-dynamic hero-city-style"></span>.
             </p>
             <div class="payment-info">
-              <strong>Finanzielle Sicherheit:</strong> Gesicherte Mietzahlung
-              durch das Jobcenter <span id="data-city-jobcenter"></span>.
+              <svg
+                class="icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <use href="#icon-check"></use>
+              </svg>
+              <div class="payment-info-text">
+                <strong>Finanzielle Sicherheit:</strong> Gesicherte Mietzahlung
+                durch das Jobcenter <span id="data-city-jobcenter"></span>.
+              </div>
             </div>
           </div>
           <div class="hero-image">
             <img
               src="https://placehold.co/600x400/E0E7FF/3730a3?text=Unser+Foto"
-              alt="Foto von Vladyslav und Hanna"
+              alt="Foto des Paares"
               class="responsive-image"
               onerror="this.src='https://placehold.co/600x400/E0E7FF/3730a3?text=Foto+fehlt'; this.alt='Platzhalterbild'"
             />
@@ -128,34 +154,32 @@
           <p>
             Wir sind <span id="data-name1"></span> und
             <span id="data-name2"></span> <span id="data-lastname"></span>, ein
-            30-jähriges Ehepaar aus der Ukraine. Aufgrund der Situation in
-            unserem Heimatland bauen wir uns derzeit eine neue, stabile Zukunft
-            in Deutschland auf und möchten in
-            <span class="data-city-dynamic"></span> ein langfristiges Zuhause
-            finden.
+            junges Paar Ende 20, ursprünglich aus einer anderen Region
+            Deutschlands. Wir sind kürzlich nach
+            <span class="data-city-dynamic"></span> gezogen, um hier eine neue
+            berufliche Perspektive zu finden und uns langfristig niederzulassen.
           </p>
           <p>
-            Wir sind beide ausgebildete Marketing-Spezialisten mit
-            Universitätsabschluss. Um uns here beruflich schnell zu integrieren,
-            lernen wir beide intensiv Deutsch (aktuell A2-Niveau).
+            <span id="data-name1"></span> ist gelernter Softwareentwickler mit
+            einer Leidenschaft für Web-Technologien. Er bildet sich derzeit im
+            Bereich <span id="data-study-field"></span> weiter, um seine
+            Fähigkeiten zu erweitern und sich auf dem lokalen Arbeitsmarkt zu
+            etablieren. Er ist technisch versiert und löst gerne knifflige
+            Probleme.
           </p>
           <p>
-            <span id="data-name1-study"></span> absolviert zusätzlich eine
-            Weiterbildung im <span id="data-study-field"></span>, um seine
-            kaufmännischen Fähigkeiten mit technischem Know-how zu verbinden und
-            sich als gefragter Spezialist zu etablieren.
+            <span id="data-name2-hobby"></span> hat einen Hintergrund im
+            kaufmännischen Bereich und ist sehr organisiert und kreativ. Sie
+            kümmert sich engagiert um unseren Haushalt und sucht ebenfalls nach
+            einer passenden Anstellung. In ihrer Freizeit beschäftigt sie sich
+            gerne mit <span id="data-hobby-person2"></span>.
           </p>
           <p>
-            <span id="data-name2-hobby"></span> ist eine sehr organisierte und
-            kreative Persönlichkeit. Sie kümmert sich um das Management unseres
-            Haushalts und interessiert sich in ihrer Freizeit für
-            <span id="data-hobby-person2"></span>.
-          </p>
-          <p>
-            Gemeinsam sind wir ein sehr ruhiges Team. Wir kochen gerne, genießen
-            die Natur hier in <span id="data-region"></span>. Ein gutes und
-            respektvolles Verhältnis zu unseren Nachbarn und zu Ihnen als
-            Vermieter ist für uns selbstverständlich.
+            Wir sind ein ruhiges und verantwortungsbewusstes Paar. Wir schätzen
+            ein ordentliches Zuhause, kochen gerne gemeinsam und erkunden die
+            schöne Umgebung von <span id="data-region"></span>. Ein gutes und
+            respektvolles Verhältnis zu Nachbarn und Vermietern ist uns sehr
+            wichtig.
           </p>
 
           <h3 style="text-align: center; margin-top: 2rem">
