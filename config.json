@@ -1,15 +1,15 @@
 {
-  "data-name1": "Vladyslav",
-  "data-name2": "Hanna",
-  "data-lastname": "Zaporozhets",
-  "data-city": "Forchheim",
-  "data-region": "Franken",
-  "data-rent-limit": 607,
-  "data-study-field": "IT-Bereich",
-  "data-hobby-person2": "Fotografie und Lesen",
-  "data-phone": "[Ваш німецький номер мобільного]",
-  "data-email": "[Ваша email-адреса]",
+  "data-name1": "Max",
+  "data-name2": "Maria",
+  "data-lastname": "Mustermann",
+  "data-city": "Musterstadt",
+  "data-region": "Bayern",
+  "data-rent-limit": 650,
+  "data-study-field": "Projektmanagement",
+  "data-hobby-person2": "Design und Yoga",
+  "data-phone": "0123 4567890",
+  "data-email": "max.mustermann@email.de",
 
-  "data-name1-study": "Vladyslav",
-  "data-name2-hobby": "Hanna"
+  "data-name1-study": "Max",
+  "data-name2-hobby": "Maria"
 }
